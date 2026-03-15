@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ログイン | Kabuki Event Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>ログイン</h1>
+
+  <div class="login-box">
+    <input type="text" id="username" placeholder="ユーザー名">
+    <input type="password" id="password" placeholder="パスワード" onkeydown="checkEnter(event)">
+    <button onclick="login()">ログイン</button>
+    <p id="errorMessage"></p>
+  </div>
+
+  <script>
+    function login() {
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+      const errorMessage = document.getElementById("errorMessage");
+
+      if (username === "admin" && password === "1234") {
+        localStorage.setItem("isLoggedIn", "true");
+        location.href = "index.html";
+      } else {
+        errorMessage.textContent = "ユーザー名またはパスワードが違います。";
+      }
+    }
+
+function checkEnter(event) {
+  if (event.key === "Enter") {
+    login();
+  }
+}
+    
+  </script>
+
+</body>
+</html>

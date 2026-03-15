@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Kabuki Event Manager</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>歌舞伎イベント管理アプリ</h1>
+
+<button onclick="logout()">ログアウト</button>
+
+<input type="text" id="taskInput" placeholder="タスクを入力">
+<button onclick="addTask()">追加</button>
+
+<ul id="taskList"></ul>
+
+<script>
+  if (localStorage.getItem("isLoggedIn") !== "true") {
+    location.href = "login.html";
+  }
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
