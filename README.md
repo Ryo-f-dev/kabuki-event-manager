@@ -6,6 +6,13 @@
 ## 公開URL
 https://ryo-f-dev.github.io/kabuki-event-manager/
 
+## テスト用ログイン情報
+
+ID: admin  
+Password: 1234
+
+※ポートフォリオ用の簡易ログイン機能のため、認証はフロントエンドで実装しています。
+
 ## アプリ画面
 
 ![アプリ画面](app.png)
