@@ -6,6 +6,10 @@
 ## 公開URL
 https://ryo-f-dev.github.io/kabuki-event-manager/
 
+## アプリ画面
+
+![アプリ画面](app.png)
+
 ## 主な機能
 - ログイン画面
 - タスク管理機能
@@ -27,7 +31,3 @@ https://ryo-f-dev.github.io/kabuki-event-manager/
 - タスクの保存機能の追加
 - UIデザインの改善
 - スマートフォン対応
-- 
-## アプリ画面
-
-![アプリ画面](app.png)
