@@ -27,3 +27,7 @@ https://ryo-f-dev.github.io/kabuki-event-manager/
 - タスクの保存機能の追加
 - UIデザインの改善
 - スマートフォン対応
+- 
+## アプリ画面
+
+![アプリ画面](app.png)
