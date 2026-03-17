@@ -6,9 +6,6 @@ https://ryo-f-dev.github.io/kabuki-event-manager/
 大学の歌舞伎イベント運営を想定して作成したタスク管理Webアプリです。  
 イベント準備のタスクを整理し、運営を効率化することを目的に制作しました。
 
-## 公開URL
-https://ryo-f-dev.github.io/kabuki-event-manager/
-
 ## テスト用ログイン情報
 
 ID: admin  
