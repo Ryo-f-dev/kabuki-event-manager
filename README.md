@@ -1,5 +1,5 @@
 ## デモ
-https://ryo-f-dev.github.io/kabuki-event-manager/
+https://ryo-f-dev.github.io/kabuki-event-manager/login.html
 
 # 歌舞伎イベントマネージャー
 
