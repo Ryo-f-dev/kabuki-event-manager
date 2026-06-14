@@ -1,4 +1,11 @@
-let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
+let tasks = JSON.parse(localStorage.getItem("tasks")) || [
+  { text: "会場予約", done: true },
+  { text: "市役所へ後援申請", done: true },
+  { text: "校長先生への挨拶", done: true },
+  { text: "歌舞伎役者との打ち合わせ", done: false },
+  { text: "最終打ち合わせ", done: false },
+  { text: "後輩への引継ぎ", done: false },
+];
 
 function saveTasks() {
   localStorage.setItem("tasks", JSON.stringify(tasks));
